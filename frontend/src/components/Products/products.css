@@ -1,0 +1,294 @@
+.productbanner{
+    background-color: #e7d8ee;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    border-bottom-left-radius: 10%;
+    padding-left: 8vh;
+    box-sizing: border-box;
+    background-image: url("../../contents/images/prodpagebg.png");
+    background-size: 0.7% 20%;
+}
+.productpage{
+    height: fit-content;
+    width: 80%;
+    background-color: #FFE4B5;
+}
+.bannerslogan{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.bannerimg{
+    width: 50%;
+}
+.bannerimg{
+    margin-right: 8vh;
+}
+.prodpageimg{
+    width:100%;
+    height:100%;
+}
+.addprodbtn{
+    width: 24%;
+    height: 5.4vh;
+    margin-top: -5vh;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: linear-gradient(to bottom, #8b4513, #ffa500);
+
+    font-family: "Dancing Script", cursive;
+    font-size: 3vh;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: white;
+}
+.addprodbtn:hover{
+    background: linear-gradient(to bottom, #ffa500, #8b4513);
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: 0.3s ease-in;
+}
+.bannerslogan h1{
+    padding: 1vh;
+    font-size: 7vh;
+    letter-spacing: 1px;
+    font-family: "UnifrakturCook", cursive;
+    margin-bottom: -5vh;
+    width: fit-content;
+    margin-top: 0;
+    background-color: black;
+    text-shadow: 4px 4px 10px gray;
+    color: #ffa500;
+}
+.bannerslogan h2{
+    padding: 1vh;
+    text-shadow: 8px 6px 10px gray;
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 1px;
+    margin-top: -4vh;
+    font-size: 4vh;
+    width: fit-content;
+    margin-bottom: -4vh;
+    color: #ffa500;
+    background: black;
+    
+}
+.productlistcont{
+    padding: 5vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: fit-content;
+    box-sizing: border-box;
+
+}
+.prodcard{
+    overflow: hidden;
+    height: 60vh;
+    width: 23%;
+    border: 1px solid white;
+    background-color: #e7d8ee;
+    border-radius: 25px;
+    margin-bottom: 8vh;
+    margin-top: 0vh;
+    border: 2px solid black ;
+    background-image: url("../../contents/images/prodbg.jpg");
+   
+    background-size: contain;
+}
+
+.pordlisthead{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 9vh;
+    margin-top: 10vh;margin-bottom: 0;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 2px;
+    font-size: 3vh;
+    border-bottom: 2px solid white;
+    text-shadow: 8px 8px 4px gray;
+}
+.pordlisthead h1{
+    margin-bottom: 2vh;
+    background: black;
+}
+.prodcardimgcont{
+    box-sizing: border-box;
+    padding: 1vh;
+    height: 50%;
+    
+}
+.prodcarddesc {
+    border-top: 3px solid black;
+    box-sizing: border-box;
+
+}
+.prodcarddesc p{
+    padding-left: 13px;
+    padding-right: 4vh;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-family: cursive;
+    width: fit-content;
+    background-color: black;
+    font-size: 2.3vh;
+}
+.prodcarddesc button{
+    
+    height: 36px;
+    border-radius: 10px;
+    font-family: cursive;
+    background-color: #ffa500;
+}
+.prodcarddesc button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 0.3s ease-in;
+    
+}
+.prodcardimg{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.deleditbtncont{
+    display: flex;
+    justify-content: space-between;
+    padding-left:10px ;
+    padding-right:10px ;
+}
+.deleditbtn{
+    height: 35px;
+    width: 30%;
+}
+.deleditbtn{
+    display: flex;
+    justify-content: space-between;
+}
+#addform{
+    position: absolute;
+    border: 1px solid black;
+    z-index: 1;
+    margin-left: 20%;
+    background-color: white;
+    height: 70%;
+    width: 40%;
+    border-radius:20px ;
+}
+#addform h1{
+    width: fit-content;
+    margin: auto;
+    color: #ffa500;
+    margin-top: 0%;
+    border-bottom: 2px solid black;
+    font-family: "UnifrakturCook", cursive;
+    letter-spacing: 1px;
+    font-size: 6vh;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+}
+#addform button{
+    margin-right: 11%;
+    margin-top: 3%;
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-size: 3vh;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+#addform button:hover{
+    color: #ffa500;
+    transition: 0.3s ease;
+    transform: translateX(2px);
+    cursor: pointer;
+    background-color:rgb(36, 36, 36);
+
+}
+#addform h3{
+    width: fit-content;
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 1px;
+    font-size: 3vh;
+}
+.addforminput{
+    background-color: #D2691E;
+    height: 3vh;
+    border-radius: 10px;
+    font-family: "Dancing Script", cursive;
+    color: white;
+    font-size: 3vh;
+    letter-spacing: 1px;
+
+}
+.addforminput::placeholder{
+    color: white;
+    padding-left: 4px;
+    font-family: monospace;
+    letter-spacing: 0cap;
+    font-size: 2vh;
+}
+.addformbtn{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.addformbottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.addprodtextarea{
+    background-color: #D2691E;
+    border: 1px solid black;
+    border-radius: 10px;
+    resize: none;
+}
+.addProdFormicon{
+    display: flex;
+    justify-content: flex-end;
+}
+.addformicon{
+    margin-right: 4%;
+    margin-top: 2%;
+    height: 3vh;
+    color: #8b4513;
+}
+.addformicon:hover{
+    transition: 0.3s ease;
+    cursor: pointer;
+    transform: rotate(720deg);
+}
+.addprodtextarea::placeholder{
+    color: white;
+}
+.editprod{
+    box-shadow: 10px 10px 10px rgb(88, 80, 80);
+}
+.EditProdAdd{
+    background-color: green !important;
+}
+.EditProdCancel{
+    background-color: red !important;
+}
+.EditProdAdd:hover{
+    background-color: rgb(13, 184, 13)!important;
+    color: black !important;
+}
+.EditProdCancel:hover{
+    background-color: rgb(199, 0, 0) !important;
+    color: black !important;
+}
+.allproducttext{
+    font-size: 7vh;
+}

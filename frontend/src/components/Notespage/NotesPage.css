@@ -1,0 +1,163 @@
+.notespage{
+    height: fit-content;
+    width: 80%;
+    background-color: #e7d8ee;
+}
+.notesDispCard{
+    height: 25vh;
+    width: 29%;
+    border: 4px solid #ffa500;
+    background-color: white;
+    margin-left: 1vh;
+    margin-bottom: 4vh;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 2vh;
+    box-shadow: 10px 10px 10px grey;
+    background-image: url(../../contents/images/notesbg.jpg);
+    background-size: cover;
+}
+.notesDispCard h2,.notesDispCard p{
+    margin-top: 0px;
+    margin-bottom: 0;
+    background-color: white;
+}
+.noteslistcont{
+    padding: 3vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.notesDispCard h2{
+    font-family: cursive;
+    font-size: 3.5vh;
+    margin-bottom: 1vh;
+    width: fit-content;
+    border-bottom: 3px solid gray;
+}
+.notesDispCard p{
+    margin-bottom: 2vh;
+    font-family: "Dancing Script", cursive;
+    font-size: 3vh;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.notesDispCard:hover{
+    background-color: white;
+}
+.notetitlecont{
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    gap: 30px;
+
+}
+.notespageicon{
+    background-color:white;
+    color: #010100;
+}
+.notespageicon:hover{
+    transition: transform 0.2s ease-in-out;
+    animation: jiggle 0.1s alternate infinite;
+    cursor: pointer;
+    color: #8b4513;
+}
+@keyframes jiggle {
+    0% {
+        transform: rotate(-10deg); 
+    }
+    100% {
+        transform: rotate(10deg); 
+        }
+}
+#addNote{
+    position: absolute;
+    border: 1px solid black;
+    z-index: 1;
+    background-color: white;
+    margin-left: 20%;
+    background-color: white;
+    height: 50%;
+    width: 35%;
+    border-radius:20px;
+    box-sizing: border-box;
+    padding-left: 4vh;
+}
+#addNote h1{
+    width: fit-content;
+    margin: auto;
+    margin-top: -2vh;
+    font-family: "UnifrakturCook", cursive;
+    color: #D2691E;
+    font-size: 6vh;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+    text-shadow: 4px 4px 4px gray;
+    border-bottom: 2px solid black;
+}
+#addNote h3{
+    width: fit-content;
+    font-family: "Dancing Script", cursive;
+    letter-spacing: 1px;
+    font-size: 3vh;
+    margin-bottom: 5px;
+}
+#addNote input{
+    background-color: #D2691E;
+    height: 3vh;
+    border-radius: 10px;
+    font-family: "Dancing Script", cursive;
+    color: white;
+    font-size: 3vh;
+    letter-spacing: 1px;
+}
+#addNote input::placeholder{
+    color: white;
+    padding-left: 5px;
+}
+.addnoteformcont{
+    display: flex;
+    justify-content: space-between;
+}
+.addnoteleft{
+    width: 48%;
+}
+.addnoteright{
+    width: 48%;
+}
+.addnoteright img{
+    height: 100%;
+    width: 100%;
+}
+.addnoteBtnCont{
+    margin-top: 3vh;
+    display: flex;
+    gap: 1vh;
+}
+.addnotebtn{
+    height: 4.4vh;
+    width: 24%;
+    border-radius: 10px;
+    background-color: #008000;
+    font-family: "Dancing Script", cursive;
+    font-size: 3vh;
+    color: white;
+}
+.addnotebtn:hover{
+    cursor: pointer;
+    background-color: #3cbb3c;
+}
+.cancelnotetbn{
+    border-radius: 10px;
+    height: 4.4vh;
+    width: 33%;
+    background-color: #FF0000;
+    font-family: "Dancing Script", cursive;
+    font-size: 3vh;
+    color: white;
+}
+.cancelnotetbn:hover{
+    cursor: pointer;
+    background-color: #9f0202;
+}
